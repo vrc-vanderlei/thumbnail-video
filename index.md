@@ -23,8 +23,8 @@ ex:
 
 ## Detalhes dos parâmetros
 
- 1 -> data-contener-id      : Id do container onde o video deve renderizar. Obrigatório.
- 2 -> data-contener-class   : Clase para estlizar o container. Obrigatório.
+ 1 -> **data-contener-id      : Id do container onde o video deve renderizar. Obrigatório.
+ 2 -> **data-contener-class   : Clase para estlizar o container. Obrigatório.
  3 -> data-video-id         : Id element Video . Obrigatório.
  4 -> data-btn-id           : Id Para element  Botton . Obrigatório.
  5 -> data-btn-class        : Clase para estlizar o Botton. Obrigatório.
