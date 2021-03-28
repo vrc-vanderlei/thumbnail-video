@@ -9,7 +9,7 @@ Gerador de thumbnail de vídeos utilizando typescript.
 Defina um elemento com que vai renderizar o video defina a Class="content-element". Oe demais parãmetros é livre.
 
 ex:
-** <div class="content-element" 
+** "<div class="content-element" 
         data-container-id="container-video" 
         data-container-class="container" 
         data-video-id="file-input" 
@@ -19,7 +19,7 @@ ex:
         data-input-file-class="file-input"
         data-img-show="yes" 
         data-img-class="fit-picture">
-    </div>**
+    </div>"**
 
 ## Detalhes dos parâmetros
 
