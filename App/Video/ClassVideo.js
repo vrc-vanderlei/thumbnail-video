@@ -19,8 +19,8 @@ class ClassVideo {
             let _render_Videos = document.querySelectorAll("." + _render_id);
             let count = 0;
             _render_Videos.forEach(function (element) {
-                let _Div_id = element.getAttribute("data-contener-id");
-                let _Contener_Class = element.getAttribute("data-contener-class");
+                let _Div_id = element.getAttribute("data-container-id");
+                let _Container_Class = element.getAttribute("data-container-class");
                 let _Video_id = element.getAttribute("data-video-id");
                 let _Btn_id = element.getAttribute("data-btn-id");
                 let _Btn_class = element.getAttribute("data-btn-class");
@@ -34,7 +34,7 @@ class ClassVideo {
                             display: none;
                         }
                     </style>
-                    <div class="${_Contener_Class}">
+                    <div class="${_Container_Class}">
                         <video id="${_Video_id}" controls>
                             <source type="video/mp4">
                         </video>
