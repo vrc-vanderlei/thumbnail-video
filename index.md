@@ -23,14 +23,14 @@ ex:
 
 ## Detalhes dos parâmetros
 
- 1 -> **data-contener-id**      : Id do container onde o video deve renderizar. Obrigatório.
- 2 -> **data-contener-class**   : Clase para estlizar o container. Obrigatório.
- 3 -> **data-video-id**         : Id element Video . Obrigatório.
- 4 -> **data-btn-id**           : Id Para element  Botton . Obrigatório.
- 5 -> **data-btn-class**        : Clase para estlizar o Botton. Obrigatório.
- 6 -> **data-input-file-id**    : Id Para element  input File . Obrigatório.
- 7 -> **data-input-file-class** : Clase para estlizar o input File. Obrigatório.
- 8 -> **data-img-show**         : yes ou no determina se deve mostrar ou não o thumb na tela. Obrigatório
- 9 -> **data-img-class**        : Clase para estlizar o element img. Obrigatório.
+ **data-contener-id**      : Id do container onde o video deve renderizar. Obrigatório.
+ **data-contener-class**   : Clase para estlizar o container. Obrigatório.
+ **data-video-id**         : Id element Video . Obrigatório.
+ **data-btn-id**           : Id Para element  Botton . Obrigatório.
+ **data-btn-class**        : Clase para estlizar o Botton. Obrigatório.
+ **data-input-file-id**    : Id Para element  input File . Obrigatório.
+ **data-input-file-class** : Clase para estlizar o input File. Obrigatório.
+ **data-img-show**         : yes ou no determina se deve mostrar ou não o thumb na tela. Obrigatório
+ **data-img-class**        : Clase para estlizar o element img. Obrigatório.
 
 Ao final um arquivo do thumb é baixado.
