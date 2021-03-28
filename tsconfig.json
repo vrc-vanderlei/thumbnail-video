@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "App",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "declarationDir": "dist",
+        "moduleResolution": "node",
+        "pretty": true,
+        "declaration": true,
+        "removeComments": true,
+        "noImplicitReturns": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "TsScripts/**/*"
+    ]
+}

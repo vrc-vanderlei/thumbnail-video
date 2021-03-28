@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="./js/dist/bundle.Video.js"></script>
+    <script src="./js/dist/bundle.app.js"></script>
+</head>
+<style>
+    .btn4 {
+        padding: 10px 20px;
+        font-size: 3.25vh;
+        /* font-size: 3em; */
+        color: #ECAC00;
+        background: #002663;
+        font-family: 'zurich_cn', sans-serif;
+        font-weight: normal;
+        /* line-height: 1.4; */
+        border: none;
+        border-radius: 4px;
+        /* width:100%; */
+        opacity: 1;
+        transition: all 0.8s;
+    }
+    
+    .file-upload {
+        position: relative;
+        overflow: hidden;
+        margin: 10px auto;
+    }
+    
+    .file-upload input.file-input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 2.5em;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        z-index: 99998;
+        background: transparent;
+    }
+</style>
+
+<body>
+    <div class="content-element" data-contenner-id="container-video" data-contenner-class="container" data-video-id="file-input" data-btn-id="capture_video" data-btn-class="file-upload btn4" data-input-file-id="inputVideo" data-input-file-class="file-input"
+        data-img-show="yes" data-img-class="fit-picture">
+    </div>
+    <div class="content-element" data-contenner-id="container-video2" data-contenner-class="container" data-video-id="file-input2" data-btn-id="capture_video2" data-btn-class="file-upload btn4" data-input-file-id="inputVideo2" data-input-file-class="file-input"
+        data-img-show="no" data-img-class="fit-picture"></div>
+
+</body>
+
+</html>
