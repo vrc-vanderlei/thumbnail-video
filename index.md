@@ -9,17 +9,17 @@ Gerador de thumbnail de vídeos utilizando typescript.
 Defina um elemento com que vai renderizar o video defina a Class="content-element". Oe demais parãmetros é livre.
 
 ex:
-** "<div class="content-element" 
-        data-container-id="container-video" 
-        data-container-class="container" 
-        data-video-id="file-input" 
-        data-btn-id="capture_video" 
-        data-btn-class="file-upload btn4" 
-        data-input-file-id="inputVideo" 
-        data-input-file-class="file-input"
-        data-img-show="yes" 
-        data-img-class="fit-picture">
-    </div>"**
+# <div class="content-element" 
+#        data-container-id="container-video" 
+#        data-container-class="container" 
+#        data-video-id="file-input" 
+#        data-btn-id="capture_video" 
+#        data-btn-class="file-upload btn4" 
+#        data-input-file-id="inputVideo" 
+#        data-input-file-class="file-input"
+#        data-img-show="yes" 
+#        data-img-class="fit-picture">
+# </div>
 
 ## Detalhes dos parâmetros
 
