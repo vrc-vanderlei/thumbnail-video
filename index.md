@@ -4,6 +4,8 @@ Gerador de thumbnail de vídeos utilizando typescript.
 
 ## thumbnail-video
 
+Para utilizar, copie a pasta App para o diretório da sua aplicação.
+
 ## Parâmetros de entada de dados.
 
 Defina um elemento com que vai renderizar o video defina a Class="content-element". Oe demais parãmetros é livre.
