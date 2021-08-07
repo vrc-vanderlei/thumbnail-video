@@ -1,4 +1,4 @@
 # thumbnail-video com typescript
-video thumbnail generator com typescript
+Gera thumbnail de vídeo com typescript
 
 
